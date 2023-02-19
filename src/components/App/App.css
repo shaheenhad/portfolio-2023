@@ -1,0 +1,12 @@
+.app {
+  background-color: #0a192f;
+  min-height: 100vh;
+  color: #8f9fd6;
+  font-family: "Titillium Web";
+  font-weight: 400;
+}
+
+.app__content {
+  max-width: 95%;
+  margin: auto;
+}

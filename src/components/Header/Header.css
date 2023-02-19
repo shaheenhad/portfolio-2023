@@ -1,0 +1,10 @@
+.header {
+  max-width: 100%;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 600;
+  max-width: 220px;
+}
