@@ -1,10 +1,64 @@
 import "./Navbar.css";
-import logo from "../../images/S-logo-hex.svg";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export const Navbar = () => {
+  useEffect(() => {
+    Aos.init({});
+  }, []);
   return (
-    <div className="navbar">
-      <img src={logo} alt="logo" className="navbar__logo"></img>
+    <div className="nav">
+      <a
+        data-aos="fade-right"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+        className="nav__logo"
+        href="/"
+      ></a>
+      <div className="nav__content">
+        <ol className="nav__list">
+          <li
+            data-aos="fade-down"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            className="nav__li"
+          >
+            <a className="nav__link" href="about">
+              About
+            </a>
+          </li>
+          <li
+            data-aos="fade-down"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+            className="nav__li"
+          >
+            <a className="nav__link" href="projects">
+              Projects
+            </a>
+          </li>
+          <li
+            data-aos="fade-down"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+            className="nav__li"
+          >
+            <a className="nav__link" href="contact">
+              Contact
+            </a>
+          </li>
+        </ol>
+        <a
+          data-aos="fade-down"
+          data-aos-delay="400"
+          data-aos-duration="1000"
+          className="nav__resume"
+          href="/resume"
+        >
+          Resume
+        </a>
+      </div>
     </div>
   );
 };

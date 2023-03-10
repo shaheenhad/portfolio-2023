@@ -1,7 +1,61 @@
-.navbar {
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  padding: 30px;
 }
 
-.navbar__logo {
+.nav__logo {
   width: 48px;
   height: 48px;
+  background-image: url("../../images/S-logo-hex.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.nav__content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav__list {
+  padding: 0;
+  display: flex;
+  margin: 0;
+  list-style-position: inside;
+}
+
+.nav__li {
+  padding: 10px;
+}
+
+.nav__li::marker {
+  color: #00ff94;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #8f9fd6;
+  margin-left: 5px;
+  transition: color ease-in-out 0.15s;
+}
+
+.nav__link:hover {
+  color: #00ff94;
+}
+
+.nav__resume {
+  color: #00ff94;
+  padding: 10px;
+  border: solid 1px #00ff94;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color ease-in-out 0.15s;
+}
+
+.nav__resume:hover {
+  background-color: rgba(0, 255, 148, 0.15);
 }
