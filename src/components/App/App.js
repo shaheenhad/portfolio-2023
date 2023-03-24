@@ -1,6 +1,7 @@
 import "./App.css";
 import { Header } from "../Header/Header";
 import { Navbar } from "../nav/Navbar";
+import { About } from "../About/About";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <div className="app__content">
         <Header />
+        <About />
       </div>
     </div>
   );

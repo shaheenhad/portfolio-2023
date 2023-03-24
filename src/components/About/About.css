@@ -1,0 +1,17 @@
+.about {
+  margin: 500px 0 0;
+}
+
+.about__title {
+  padding: 0;
+  display: flex;
+  margin: 0;
+  list-style-type: decimal-leading-zero;
+  list-style-position: inside;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.about__title-li::marker {
+  color: #00ff94;
+}

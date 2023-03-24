@@ -24,7 +24,7 @@ export const Navbar = () => {
             data-aos-duration="1000"
             className="nav__li"
           >
-            <a className="nav__link" href="about">
+            <a className="nav__link" href="#about">
               About
             </a>
           </li>

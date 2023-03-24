@@ -25,6 +25,7 @@
   padding: 0;
   display: flex;
   margin: 0;
+  list-style-type: decimal-leading-zero;
   list-style-position: inside;
 }
 
