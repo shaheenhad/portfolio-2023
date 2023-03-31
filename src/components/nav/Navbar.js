@@ -34,7 +34,7 @@ export const Navbar = () => {
             data-aos-duration="1000"
             className="nav__li"
           >
-            <a className="nav__link" href="projects">
+            <a className="nav__link" href="#projects">
               Projects
             </a>
           </li>
@@ -44,7 +44,7 @@ export const Navbar = () => {
             data-aos-duration="1000"
             className="nav__li"
           >
-            <a className="nav__link" href="contact">
+            <a className="nav__link" href="#contact">
               Contact
             </a>
           </li>
@@ -54,7 +54,7 @@ export const Navbar = () => {
           data-aos-delay="400"
           data-aos-duration="1000"
           className="nav__resume"
-          href="/resume"
+          href="#resume"
         >
           Resume
         </a>
