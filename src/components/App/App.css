@@ -5,10 +5,11 @@
   font-family: "Titillium Web";
   font-weight: 400;
   font-size: 18px;
+  position: relative;
 }
 
 .app__content {
-  max-width: 1600px;
+  max-width: 1400px;
   margin: auto;
   min-height: 100vh;
   padding: 20px 10% 20px;

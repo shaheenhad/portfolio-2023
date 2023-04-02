@@ -1,0 +1,31 @@
+.sideEl {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.sideEl__content::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: #8f9fd6;
+}
+
+.sideEl__link {
+  display: inline-block;
+  text-decoration: none;
+  color: #8f9fd6;
+  font-size: 14px;
+  letter-spacing: 2px;
+  transform: rotate(90deg) translateX(-105px);
+  transition: transform linear 0.1s;
+}
+
+.sideEl__link:hover {
+  color: #00ff94;
+  transform: rotate(90deg) translateX(-110px);
+}

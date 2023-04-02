@@ -2,6 +2,7 @@ import "./App.css";
 import { Header } from "../Header/Header";
 import { Navbar } from "../nav/Navbar";
 import { About } from "../About/About";
+import { SideEl } from "../SideEl/SideEl";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <About />
       </div>
+      <SideEl />
     </div>
   );
 }

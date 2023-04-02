@@ -39,9 +39,9 @@ export const Header = () => {
         data-aos-duration="1000"
         className="header__desc_alt"
       >
-        I'm a pharmaceutical production engineer, turned software engineer, with
-        an interest in building exceptional web experiences. Keep going to see
-        what I've done so far!
+        I'm a software engineer and pharmaceutical production engineer who
+        enjoys building exceptional web experiences. Keep going to see what I've
+        done so far!
       </p>
     </div>
   );
