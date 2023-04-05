@@ -2,9 +2,10 @@ import "./App.css";
 import { Header } from "../Header/Header";
 import { Navbar } from "../nav/Navbar";
 import { About } from "../About/About";
-import { SideEl } from "../SideEl/SideEl";
+import { Email } from "../SideEmail/SideEmail";
 
 function App() {
+  console.log(<Email />);
   return (
     <div className="app">
       <Navbar />
@@ -12,7 +13,7 @@ function App() {
         <Header />
         <About />
       </div>
-      <SideEl />
+      <Email />
     </div>
   );
 }

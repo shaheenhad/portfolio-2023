@@ -3,6 +3,9 @@
   flex-direction: column;
   position: fixed;
   bottom: 0;
+}
+
+.sideEl_right {
   right: 0;
 }
 

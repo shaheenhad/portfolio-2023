@@ -3,7 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-export const SideEl = () => {
+export const SideEl = ({ side, children }) => {
   useEffect(() => {
     Aos.init({});
   }, []);
@@ -14,13 +14,9 @@ export const SideEl = () => {
       data-aos-once={true}
       data-aos-anchor=".header"
       data-aos-delay="1800"
-      className="sideEl"
+      className={`sideEl sideEl_${side}`}
     >
-      <div className="sideEl__content">
-        <a className="sideEl__link" href="mailto:shaheenhad@gmail.com">
-          shaheenhad@gmail.com
-        </a>
-      </div>
+      <div className="sideEl__content">{children}</div>
     </div>
   );
 };
