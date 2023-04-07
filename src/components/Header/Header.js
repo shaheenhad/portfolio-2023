@@ -8,7 +8,7 @@ export const Header = () => {
     Aos.init({});
   }, []);
   return (
-    <div className="header">
+    <section className="header">
       <p
         data-aos="fade-up"
         data-aos-delay="1200"
@@ -29,6 +29,7 @@ export const Header = () => {
         data-aos="fade-up"
         data-aos-delay="1300"
         data-aos-duration="1000"
+        data-aos-anchor=".header__title"
         className="header__desc"
       >
         Fullstack developer, engineer, and lifelong learner
@@ -37,12 +38,13 @@ export const Header = () => {
         data-aos="fade-up"
         data-aos-delay="1350"
         data-aos-duration="1000"
+        data-aos-anchor=".header__title"
         className="header__desc_alt"
       >
-        I'm a software engineer and pharmaceutical production engineer who
-        enjoys building exceptional web experiences. Keep going to see what I've
-        done so far!
+        I'm a pharmaceutical production engineer, turned software engineer, with
+        an interest in building exceptional web experiences. Keep going to see
+        what I've done so far!
       </p>
-    </div>
+    </section>
   );
 };
