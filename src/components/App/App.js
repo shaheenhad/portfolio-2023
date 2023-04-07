@@ -2,10 +2,10 @@ import "./App.css";
 import { Header } from "../Header/Header";
 import { Navbar } from "../nav/Navbar";
 import { About } from "../About/About";
-import { Email } from "../SideEmail/SideEmail";
+import { Email } from "../Email/Email";
+import { Social } from "../Social/Social";
 
 function App() {
-  console.log(<Email />);
   return (
     <div className="app">
       <Navbar />
@@ -14,6 +14,7 @@ function App() {
         <About />
       </div>
       <Email />
+      <Social />
     </div>
   );
 }

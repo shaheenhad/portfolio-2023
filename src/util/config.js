@@ -1,3 +1,14 @@
-const email = "shaheenhad@gmail.com";
+module.exports = {
+  email: "shaheenhad@gmail.com",
 
-export { email };
+  social: [
+    {
+      name: "GitHub",
+      url: "https://github.com/shaheenhad",
+    },
+    {
+      name: "Linkedin",
+      url: "https://www.linkedin.com/in/shaheenhad/",
+    },
+  ],
+};
