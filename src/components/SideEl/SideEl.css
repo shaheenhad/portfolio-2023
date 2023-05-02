@@ -6,7 +6,14 @@
 }
 
 .sideEl_right {
-  right: 0;
+  right: -30px;
+}
+
+.sideEl_left {
+  left: 35px;
+}
+
+.sideEl__content {
 }
 
 .sideEl__content::after {

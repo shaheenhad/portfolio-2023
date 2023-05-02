@@ -14,7 +14,3 @@
   min-height: 100vh;
   padding: 20px 10% 20px;
 }
-
-::selection {
-  background-color: rgba(0, 255, 148, 0.3);
-}

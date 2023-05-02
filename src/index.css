@@ -3,4 +3,20 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #495670 #0a192f;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #0a192f;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #495670;
+  border: 3px solid #0a192f;
+  border-radius: 10px;
+}
+::selection {
+  background-color: rgba(0, 255, 148, 0.3);
 }
