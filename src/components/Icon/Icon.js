@@ -1,5 +1,4 @@
-import Github from "../../images/github.svg";
-import LinkedIn from "../../images/linkedin.svg";
+import { IconLinkedIn } from "./IconLinkedIn";
 import { IconGithub } from "./IconGithub";
 
 export const Icon = ({ name, className }) => {
@@ -7,9 +6,7 @@ export const Icon = ({ name, className }) => {
     case "GitHub":
       return <IconGithub className={className} />;
     case "Linkedin":
-      return (
-        <img className={className} src={LinkedIn} alt="Shaheen's LinkedIn" />
-      );
+      return <IconLinkedIn className={className} />;
     default:
       return;
   }

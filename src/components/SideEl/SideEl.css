@@ -13,9 +13,6 @@
   left: 35px;
 }
 
-.sideEl__content {
-}
-
 .sideEl__content::after {
   content: "";
   display: block;

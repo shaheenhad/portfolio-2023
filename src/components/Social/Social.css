@@ -9,6 +9,7 @@
 .social__icon {
   transition: fill ease-in 0.1s, transform ease-in 0.1s;
   fill: #fff;
+  padding-bottom: 5px;
 }
 
 .social__icon:hover {
