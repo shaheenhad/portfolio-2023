@@ -4,6 +4,7 @@ import { Navbar } from "../nav/Navbar";
 import { About } from "../About/About";
 import { Email } from "../Email/Email";
 import { Social } from "../Social/Social";
+import { Footer } from "../Footer/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="app__content">
         <Header />
         <About />
+        <Footer />
       </div>
       <Email />
       <Social />
