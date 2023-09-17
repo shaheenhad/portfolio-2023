@@ -1,6 +1,7 @@
 .about {
-  margin: 700px 0 0;
-  padding: 0 100px 0;
+  margin: 0 auto 0;
+  padding: 700px 100px 0;
+  max-width: fit-content;
 }
 
 .about__title {
@@ -12,6 +13,7 @@
   font-size: 32px;
   font-weight: 600;
   color: #bacaff;
+  position: relative;
 }
 
 .about__title-li::marker {
@@ -37,6 +39,46 @@
 }
 
 .about__content {
-  max-width: 550px;
+  max-width: 900px;
   line-height: 1.3;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 0 40px;
+}
+
+.about__desc {
+  max-width: 510px;
+}
+
+.about__pic-wrapper {
+  max-height: 300px;
+  max-width: 300px;
+  position: relative;
+}
+
+.about__overlay {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #00ff94;
+  z-index: 2;
+  border-radius: 5px;
+  opacity: 0.5;
+  transition: opacity ease-in 0.1s;
+}
+
+.about__overlay:hover {
+  opacity: 0;
+}
+
+.about__pic {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 5px;
+  z-index: 1;
 }
