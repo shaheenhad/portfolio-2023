@@ -54,6 +54,27 @@
   max-height: 300px;
   max-width: 300px;
   position: relative;
+  transition: translate ease-in 0.1s;
+}
+
+.about__pic-wrapper::after {
+  width: 100%;
+  height: 100%;
+  content: "";
+  border: 3px #00ff94 solid;
+  border-radius: 5px;
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  z-index: -1;
+  transition: translate ease-in 0.1s;
+}
+.about__pic-wrapper:hover {
+  translate: -5px -5px;
+}
+
+.about__pic-wrapper:hover::after {
+  translate: 10px 10px;
 }
 
 .about__overlay {
