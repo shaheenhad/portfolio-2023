@@ -2,7 +2,7 @@ import "./Projects.css";
 import { Card } from "../Card/Card";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { projects } from "../../util/config";
+import { projects } from "../../util/projectData";
 import { useEffect } from "react";
 
 export const Projects = () => {
@@ -24,7 +24,16 @@ export const Projects = () => {
         </li>
       </ol>
       <div className="projects__grid">
-        <Card name={projects.name} url={projects.url} image={projects.image} />
+        {projects.map((project, index) => {
+          return (
+            <Card
+              key={index}
+              name={project.name}
+              url={project.url}
+              image={project.image}
+            />
+          );
+        })}
       </div>
     </section>
   );
