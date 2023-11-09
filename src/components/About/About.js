@@ -38,6 +38,17 @@ export const About = () => {
             am incredibly excited to apply my skills with you, tackling your
             challenging and innovate projects.
           </p>
+          <p className="about__text">
+            Here are some of the technologies I've been working with:
+            <ul className="about__list">
+              <li className="about__list-item">Javascript</li>
+              <li className="about__list-item">React</li>
+              <li className="about__list-item">Git</li>
+              <li className="about__list-item">Node.js</li>
+              <li className="about__list-item">Express.js</li>
+              <li className="about__list-item">MongoDB</li>
+            </ul>
+          </p>
         </div>
         <div className="about__pic-wrapper">
           <div className="about__overlay"></div>

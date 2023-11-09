@@ -1,6 +1,6 @@
 .about {
-  margin: 0 auto 0;
-  padding: 700px 100px 0;
+  margin: 700px auto 700px;
+  padding: 100px 100px 0;
   max-width: fit-content;
 }
 
@@ -50,7 +50,20 @@
   max-width: 510px;
 }
 
+.about__list {
+  list-style-type: disclosure-closed;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px 0;
+}
+
+.about__list-item::marker {
+  color: #00ff94;
+  font-size: 14px;
+}
+
 .about__pic-wrapper {
+  margin-top: 24px;
   max-height: 300px;
   max-width: 300px;
   position: relative;
