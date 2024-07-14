@@ -41,9 +41,9 @@ export const Header = () => {
         data-aos-anchor=".header__title"
         className="header__desc_alt"
       >
-        I'm a pharmaceutical production engineer, turned software engineer, with
-        an interest in building exceptional web experiences. Keep going to see
-        what I've done so far!
+        I'm an engineer in pharmaceuticals, turned software engineer, with an
+        interest in building exceptional web experiences. Keep going to see what
+        I've done so far!
       </p>
     </section>
   );

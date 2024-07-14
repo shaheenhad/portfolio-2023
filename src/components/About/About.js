@@ -30,13 +30,15 @@ export const About = () => {
           <p className="about_text">
             And for over a decade, that was it. My real interest in the field
             took off after watching one of my best friends make the leap from
-            chemical engineering to software.
+            chemical engineering to software. It made me relive those younger
+            days, and I was excited by the fast paced and complex nature of the
+            problems I might get to solve.
           </p>
           <p className="about__text">
-            Now, in 2023, I've completed the software engineering program
-            offered by TripleTen (formerly Practicum). After learning so much, I
-            am incredibly excited to apply my skills with you, tackling your
-            challenging and innovate projects.
+            Now, I've completed the software engineering program offered by
+            TripleTen (formerly Practicum). After learning so much, I am
+            incredibly excited to apply my skills with you, tackling your
+            challenging and innovative projects.
           </p>
           <p className="about__text">
             Here are some of the technologies I've been working with:
