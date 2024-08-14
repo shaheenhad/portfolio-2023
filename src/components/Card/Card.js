@@ -1,15 +1,18 @@
 import "./Card.css";
+import { Icon } from "../Icon/Icon";
 
-export const Card = ({ name, url, image }) => {
+export const Card = ({ name, url, githubURL, image, description }) => {
   return (
     <article className="card">
       <div className="card__wrapper">
-        <div className="card__overlay">need to fix height of overlay</div>
-        <img className="card__image" src={image}></img>
+        <a href={githubURL} target="_blank" rel="noreferrer">
+          <Icon name="GitHub" className="card__icon" />
+        </a>
+        <img className="card__image" alt="project example" src={image}></img>
       </div>
       <div className="card__info">
         <h2 className="card__title">{name}</h2>
-        <p className="card__description"></p>
+        <p className="card__description">{description}</p>
       </div>
     </article>
   );

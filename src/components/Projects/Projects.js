@@ -20,10 +20,10 @@ export const Projects = () => {
     >
       <ol className="projects__title">
         <li value="2" className="projects__title-li">
-          Some things I've done
+          Some things I've built
         </li>
       </ol>
-      <div className="projects__grid">
+      <div className="projects__content">
         {projects.map((project, index) => {
           return (
             <Card
@@ -31,6 +31,8 @@ export const Projects = () => {
               name={project.name}
               url={project.url}
               image={project.image}
+              description={project.description}
+              githubURL={project.githubURL}
             />
           );
         })}

@@ -7,7 +7,7 @@
 }
 
 .social__icon {
-  transition: fill ease-in 0.1s, transform ease-in 0.1s;
+  transition: fill ease-in 0.15s, transform ease-in 0.1s;
   fill: #fff;
   padding-bottom: 5px;
 }
