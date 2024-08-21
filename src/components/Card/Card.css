@@ -56,16 +56,8 @@
 }
 
 .card__link {
-  width: 18px;
-  height: 19.3px;
-  cursor: pointer;
-  margin: 0;
-  border: none;
-  padding: 0;
-  position: absolute;
-  right: 15px;
-  top: 18px;
-  transition: opacity, 0.1s linear;
+  color: #8f9fd6;
+  text-decoration: none;
 }
 
 .card__info {
@@ -78,7 +70,7 @@
 
 .card__title {
   margin: 0;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 900;
   line-height: 1.21;
   text-overflow: ellipsis;
@@ -89,6 +81,6 @@
 .card__description {
   margin: 0;
   padding-top: 5px;
-  font-size: 14px;
+  font-size: 16px;
   max-width: 80%;
 }
