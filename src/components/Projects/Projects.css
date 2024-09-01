@@ -1,5 +1,5 @@
 .projects {
-  margin: 700px auto 700px;
+  margin: 700px auto 300px;
   padding: 0 100px 0;
   max-width: fit-content;
 }
@@ -39,10 +39,10 @@
 }
 
 .projects__content {
-  max-width: 900px;
+  max-width: 1200px;
   line-height: 1.3;
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 2fr 2fr 2fr;
   gap: 0 40px;
-  padding-top: 50px;
+  padding-top: 100px;
 }

@@ -5,6 +5,7 @@ import { About } from "../About/About";
 import { Projects } from "../Projects/Projects";
 import { Email } from "../Email/Email";
 import { Social } from "../Social/Social";
+import { Contact } from "../Contact/Contact";
 import { Footer } from "../Footer/Footer";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Header />
         <About />
         <Projects />
+        <Contact />
         <Footer />
       </div>
       <Email />
