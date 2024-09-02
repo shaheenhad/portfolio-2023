@@ -36,3 +36,19 @@
   color: #00ff94;
   transform: rotate(90deg) translateX(-110px);
 }
+
+@media screen and (max-width: 1024px) {
+  .sideEl_right {
+    right: -25px;
+  }
+
+  .sideEl_left {
+    left: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sideEl {
+    display: none;
+  }
+}

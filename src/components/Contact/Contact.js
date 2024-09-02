@@ -3,6 +3,8 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { email } from "../../util/config";
+import { Icon } from "../Icon/Icon";
+import { social } from "../../util/config";
 
 export const Contact = () => {
   useEffect(() => {
@@ -34,6 +36,15 @@ export const Contact = () => {
       <a href={`mailto:${email}`} className="contact__link shake">
         Say Hello
       </a>
+      <ul className="social contact__icons">
+        {social.map(({ url, name }, i) => (
+          <li key={i}>
+            <a href={url} target="_blank" rel="noreferrer">
+              <Icon className="social__icon" name={name} />
+            </a>
+          </li>
+        ))}
+      </ul>
     </section>
   );
 };

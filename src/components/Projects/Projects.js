@@ -20,7 +20,7 @@ export const Projects = () => {
     >
       <ol className="projects__title">
         <li value="2" className="projects__title-li">
-          Some things I've built
+          Some Things I've Built
         </li>
       </ol>
       <div className="projects__content">

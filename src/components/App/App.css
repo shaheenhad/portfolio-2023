@@ -14,3 +14,15 @@
   min-height: 100vh;
   padding: 20px 10% 20px;
 }
+
+@media screen and (max-width: 800px) {
+  .app__content {
+    margin-top: 15vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .app__content {
+    margin-top: 80px;
+  }
+}

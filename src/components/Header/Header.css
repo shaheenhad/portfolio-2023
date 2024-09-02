@@ -13,7 +13,7 @@
 
 .header__title {
   margin: 0;
-  font-size: 84px;
+  font-size: clamp(40px, 8vw, 84px);
   font-weight: 900;
   color: #bacaff;
 }
@@ -29,4 +29,13 @@
   font-size: 22px;
   max-width: 550px;
   line-height: 1.5;
+}
+
+@media screen and (max-width: 320px) {
+  .header__desc {
+    font-size: 24px;
+  }
+  .header__desc_alt {
+    font-size: 18px;
+  }
 }

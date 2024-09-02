@@ -3,6 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import mePath from "../../images/shaheen.jpg";
+import { technologies } from "../../util/config";
 
 export const About = () => {
   useEffect(() => {
@@ -22,12 +23,11 @@ export const About = () => {
       </ol>
       <div className="about__content">
         <div className="about__desc">
-          <p className="about_text">
+          <p className="about__text">
             Hello! My name is Shaheen. Like many, my first experience with web
-            development was adding custom HTML and CSS to my MySpace page circa
-            2007.
+            development was adding custom HTML to my MySpace page circa 2007.
           </p>
-          <p className="about_text">
+          <p className="about__text">
             And for over a decade, that was it. My real interest in the field
             took off after watching one of my best friends make the leap from
             chemical engineering to software. It made me relive those younger
@@ -40,17 +40,18 @@ export const About = () => {
             incredibly excited to apply my skills with you, tackling your
             challenging and innovative projects.
           </p>
-          <p className="about__text">
+          <div className="about__list-container">
             Here are some of the technologies I've been working with:
             <ul className="about__list">
-              <li className="about__list-item">Javascript</li>
-              <li className="about__list-item">React</li>
-              <li className="about__list-item">Git</li>
-              <li className="about__list-item">Node.js</li>
-              <li className="about__list-item">Express.js</li>
-              <li className="about__list-item">MongoDB</li>
+              {technologies.map((item, index) => {
+                return (
+                  <li key={index} className="about__list-item">
+                    {item}
+                  </li>
+                );
+              })}
             </ul>
-          </p>
+          </div>
         </div>
         <div className="about__pic-wrapper">
           <div className="about__overlay"></div>
