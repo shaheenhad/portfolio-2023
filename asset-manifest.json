@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/shaheenhad/portfolio-2023/static/css/main.1d13bed2.css",
-    "main.js": "/shaheenhad/portfolio-2023/static/js/main.dd166313.js",
-    "static/js/787.755d6b54.chunk.js": "/shaheenhad/portfolio-2023/static/js/787.755d6b54.chunk.js",
-    "static/media/around.png": "/shaheenhad/portfolio-2023/static/media/around.c1e2dabed1fa6e92bb07.png",
-    "static/media/art.png": "/shaheenhad/portfolio-2023/static/media/art.f8718984eccc48dfb53f.png",
-    "static/media/coffee.png": "/shaheenhad/portfolio-2023/static/media/coffee.cae90d9b8cdd0456a8c3.png",
-    "static/media/shaheen.jpg": "/shaheenhad/portfolio-2023/static/media/shaheen.576fe878ecc2d6528e1f.jpg",
-    "static/media/S-logo-hex-sm.svg": "/shaheenhad/portfolio-2023/static/media/S-logo-hex-sm.c1ecc6f84cdef5657a4f.svg",
-    "index.html": "/shaheenhad/portfolio-2023/index.html",
-    "main.1d13bed2.css.map": "/shaheenhad/portfolio-2023/static/css/main.1d13bed2.css.map",
-    "main.dd166313.js.map": "/shaheenhad/portfolio-2023/static/js/main.dd166313.js.map",
-    "787.755d6b54.chunk.js.map": "/shaheenhad/portfolio-2023/static/js/787.755d6b54.chunk.js.map"
+    "main.css": "/portfolio-2023/static/css/main.1d4e374d.css",
+    "main.js": "/portfolio-2023/static/js/main.f0e63e51.js",
+    "static/js/787.755d6b54.chunk.js": "/portfolio-2023/static/js/787.755d6b54.chunk.js",
+    "static/media/around.png": "/portfolio-2023/static/media/around.c1e2dabed1fa6e92bb07.png",
+    "static/media/art.png": "/portfolio-2023/static/media/art.f8718984eccc48dfb53f.png",
+    "static/media/coffee.png": "/portfolio-2023/static/media/coffee.cae90d9b8cdd0456a8c3.png",
+    "static/media/shaheen.jpg": "/portfolio-2023/static/media/shaheen.576fe878ecc2d6528e1f.jpg",
+    "static/media/S-logo-hex-sm.svg": "/portfolio-2023/static/media/S-logo-hex-sm.c1ecc6f84cdef5657a4f.svg",
+    "index.html": "/portfolio-2023/index.html",
+    "main.1d4e374d.css.map": "/portfolio-2023/static/css/main.1d4e374d.css.map",
+    "main.f0e63e51.js.map": "/portfolio-2023/static/js/main.f0e63e51.js.map",
+    "787.755d6b54.chunk.js.map": "/portfolio-2023/static/js/787.755d6b54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d13bed2.css",
-    "static/js/main.dd166313.js"
+    "static/css/main.1d4e374d.css",
+    "static/js/main.f0e63e51.js"
   ]
 }
