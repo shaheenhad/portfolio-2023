@@ -50,7 +50,12 @@ export const Navbar = () => {
           </li>
         </ol>
         <div data-aos="fade-down" data-aos-delay="400" data-aos-duration="1000">
-          <a className="nav__resume" href="#resume">
+          <a
+            className="nav__resume"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://app.rezi.ai/s/ZNa9v6g3cTeaOLc6GF8W"
+          >
             Resume
           </a>
         </div>
